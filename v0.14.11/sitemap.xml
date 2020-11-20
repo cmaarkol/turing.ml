@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Turing.jl</title>
-    <meta name="description" content="         /     2020-11-19     daily    ">
+    <meta name="description" content="         /     2020-11-20     daily    ">
     <meta name="author" content="The Turing Team">
     <meta name="theme-color" content="red">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -270,7 +270,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>/</loc>
-     <lastmod>2020-11-19</lastmod>
+     <lastmod>2020-11-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
 
