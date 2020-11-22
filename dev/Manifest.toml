@@ -216,9 +216,9 @@ version = "0.1.8"
 
 [[DynamicPPL]]
 deps = ["AbstractMCMC", "Bijectors", "ChainRulesCore", "Distributions", "MacroTools", "NaturalSort", "Random"]
-git-tree-sha1 = "cadf6acf7915547193ffaf5c5d0deeed1b26d37d"
+git-tree-sha1 = "c0e31cd66fbb6a20057639fd6d2240964d9fb27e"
 uuid = "366bfd00-2699-11ea-058f-f148b4cae6d8"
-version = "0.9.7"
+version = "0.9.8"
 
 [[EllipsisNotation]]
 git-tree-sha1 = "65dad386e877850e6fce4fc77f60fe75a468ce9d"
