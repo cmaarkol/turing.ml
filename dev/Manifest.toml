@@ -100,9 +100,9 @@ version = "0.5.10"
 
 [[ChainRules]]
 deps = ["ChainRulesCore", "ChainRulesTestUtils", "Compat", "LinearAlgebra", "Random", "Reexport", "Requires", "Statistics"]
-git-tree-sha1 = "b8a69afa605d7bd4437c949ffaba8496ff7634b3"
+git-tree-sha1 = "097722a98537a738e3e42bec069c63663292f991"
 uuid = "082447d4-558c-5d27-93f4-14fc19e9eca2"
-version = "0.7.39"
+version = "0.7.40"
 
 [[ChainRulesCore]]
 deps = ["LinearAlgebra", "MuladdMacro", "SparseArrays"]
@@ -112,9 +112,9 @@ version = "0.9.23"
 
 [[ChainRulesTestUtils]]
 deps = ["ChainRulesCore", "Compat", "FiniteDifferences", "LinearAlgebra", "Random", "Test"]
-git-tree-sha1 = "03669fd72eb7f8bf26dae4a6e5f454907429be17"
+git-tree-sha1 = "46bffe681346102f3573851204b88ef381a32f43"
 uuid = "cdddcdb0-9152-4a09-a978-84456f9df70a"
-version = "0.5.7"
+version = "0.5.8"
 
 [[Combinatorics]]
 git-tree-sha1 = "08c8b6831dc00bfea825826be0bc8336fc369860"
@@ -207,9 +207,9 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[Distributions]]
 deps = ["FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase", "StatsFuns"]
-git-tree-sha1 = "3d85c955190e6133966df58d3088d88234b72d12"
+git-tree-sha1 = "44707146bef189b05872742c96cfeee89e2400a3"
 uuid = "31c24e10-a181-5473-b8eb-7969acd0382f"
-version = "0.24.6"
+version = "0.24.7"
 
 [[DistributionsAD]]
 deps = ["Adapt", "ChainRules", "ChainRulesCore", "Compat", "DiffRules", "Distributions", "FillArrays", "ForwardDiff", "LinearAlgebra", "NaNMath", "PDMats", "Random", "Requires", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "ZygoteRules"]
@@ -225,9 +225,9 @@ version = "0.8.3"
 
 [[Documenter]]
 deps = ["Base64", "Dates", "DocStringExtensions", "IOCapture", "InteractiveUtils", "JSON", "LibGit2", "Logging", "Markdown", "REPL", "Test", "Unicode"]
-git-tree-sha1 = "c01a7e8bcf7a6693444a52a0c5ac8b4e9528600e"
+git-tree-sha1 = "b7715ae18be02110a8cf9cc8ed2ccdb1e3e3aba2"
 uuid = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-version = "0.26.0"
+version = "0.26.1"
 
 [[DocumenterMarkdown]]
 deps = ["Documenter"]
@@ -550,9 +550,9 @@ version = "0.2.0"
 
 [[Requires]]
 deps = ["UUIDs"]
-git-tree-sha1 = "e05c53ebc86933601d36212a93b39144a2733493"
+git-tree-sha1 = "cfbac6c1ed70c002ec6361e7fd334f02820d6419"
 uuid = "ae029012-a4dd-5104-9daa-d747884805df"
-version = "1.1.1"
+version = "1.1.2"
 
 [[Richardson]]
 deps = ["LinearAlgebra"]
@@ -620,9 +620,9 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[SpecialFunctions]]
 deps = ["ChainRulesCore", "OpenSpecFun_jll"]
-git-tree-sha1 = "34d6e428b902ad143a14206940c2bcaf33a6cafd"
+git-tree-sha1 = "75394dbe2bd346beeed750fb02baa6445487b862"
 uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
-version = "1.2.0"
+version = "1.2.1"
 
 [[SplittablesBase]]
 deps = ["Setfield", "Test"]
