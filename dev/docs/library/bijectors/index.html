@@ -828,8 +828,8 @@
   <li><a href="/dev/docs/library/bijectors/#Bijectors.forward-Tuple{Bijector,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.forward</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.forward-Tuple{Distribution}"><code class="language-plaintext highlighter-rouge">Bijectors.forward</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.isclosedform-Tuple{Bijector}"><code class="language-plaintext highlighter-rouge">Bijectors.isclosedform</code></a></li>
-  <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{ADBijector,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjac</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{Inverse{var&quot;#s23&quot;,N} where N where var&quot;#s23&quot;&lt;:Bijector,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjac</code></a></li>
+  <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{ADBijector,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjac</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjacinv-Tuple{Bijector,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjacinv</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjacinv-Tuple{Bijectors.TransformedDistribution{var&quot;#s108&quot;,var&quot;#s107&quot;,Univariate} where var&quot;#s107&quot;&lt;:Bijector where var&quot;#s108&quot;&lt;:Distribution,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjacinv</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logpdf_with_jac-Tuple{Bijectors.TransformedDistribution{var&quot;#s108&quot;,var&quot;#s107&quot;,Univariate} where var&quot;#s107&quot;&lt;:Bijector where var&quot;#s108&quot;&lt;:Distribution,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logpdf_with_jac</code></a></li>
@@ -948,11 +948,33 @@ end
 <div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">find_alpha</span><span class="x">(</span><span class="n">wt_y</span><span class="x">,</span> <span class="n">wt_u_hat</span><span class="x">,</span> <span class="n">b</span><span class="x">)</span>
 </code></pre></div></div>
 
-<p>Compute an (approximate) real-valued solution $α$ to the equation</p>
+<p>Compute an (approximate) real-valued solution $α̂$ to the equation</p>
 
 \[wt_y = α + wt_u_hat tanh(α + b)\]
 
 <p>The uniqueness of the solution is guaranteed since $wt_u_hat ≥ -1$. For details see appendix A.1 of the reference.</p>
+
+<p><strong>Initial bracket</strong></p>
+
+<p>For all $α$, we have</p>
+
+\[α - |wt_u_hat| - wt_y \leq α + wt_u_hat tanh(α + b) - wt_y \leq α + |wt_u_hat| - wt_y.\]
+
+<p>Thus</p>
+
+\[α̂ - |wt_u_hat| - wt_y \leq 0 \leq α̂ + |wt_u_hat| - wt_y,\]
+
+<table>
+  <tbody>
+    <tr>
+      <td>which implies $α̂ ∈ [wt_y -</td>
+      <td>wt_u_hat</td>
+      <td>, wt_y +</td>
+      <td>wt_u_hat</td>
+      <td>]$.</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><strong>References</strong></p>
 
