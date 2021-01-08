@@ -1,1 +1,1 @@
-Sitemap: /turing.ml/dev/sitemap.xml
+Sitemap: /dev/sitemap.xml
