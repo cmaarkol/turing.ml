@@ -824,12 +824,13 @@
   <li><a href="/dev/docs/library/bijectors/#Bijectors.compute_r-Tuple{AbstractArray{var&quot;#s107&quot;,1} where var&quot;#s107&quot;&lt;:Real,Any,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.compute_r</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.couple-Tuple{Bijectors.Coupling,AbstractArray{T,1} where T}"><code class="language-plaintext highlighter-rouge">Bijectors.couple</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.coupling-Tuple{Bijectors.Coupling}"><code class="language-plaintext highlighter-rouge">Bijectors.coupling</code></a></li>
-  <li><a href="/dev/docs/library/bijectors/#Bijectors.find_alpha-Tuple{Any,Any,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.find_alpha</code></a></li>
-  <li><a href="/dev/docs/library/bijectors/#Bijectors.forward-Tuple{Distribution}"><code class="language-plaintext highlighter-rouge">Bijectors.forward</code></a></li>
+  <li><a href="/dev/docs/library/bijectors/#Bijectors.find_alpha-Tuple{Real,Real,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.find_alpha</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.forward-Tuple{Bijector,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.forward</code></a></li>
+  <li><a href="/dev/docs/library/bijectors/#Bijectors.forward-Tuple{Distribution}"><code class="language-plaintext highlighter-rouge">Bijectors.forward</code></a></li>
+  <li><a href="/dev/docs/library/bijectors/#Bijectors.get_u_hat-Tuple{AbstractArray{var&quot;#s106&quot;,1} where var&quot;#s106&quot;&lt;:Real,AbstractArray{var&quot;#s105&quot;,1} where var&quot;#s105&quot;&lt;:Real}"><code class="language-plaintext highlighter-rouge">Bijectors.get_u_hat</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.isclosedform-Tuple{Bijector}"><code class="language-plaintext highlighter-rouge">Bijectors.isclosedform</code></a></li>
-  <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{ADBijector,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjac</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{Inverse{var&quot;#s23&quot;,N} where N where var&quot;#s23&quot;&lt;:Bijector,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjac</code></a></li>
+  <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{ADBijector,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjac</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjacinv-Tuple{Bijectors.TransformedDistribution{var&quot;#s108&quot;,var&quot;#s107&quot;,Univariate} where var&quot;#s107&quot;&lt;:Bijector where var&quot;#s108&quot;&lt;:Distribution,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjacinv</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logabsdetjacinv-Tuple{Bijector,Any}"><code class="language-plaintext highlighter-rouge">Bijectors.logabsdetjacinv</code></a></li>
   <li><a href="/dev/docs/library/bijectors/#Bijectors.logpdf_with_jac-Tuple{Bijectors.TransformedDistribution{var&quot;#s108&quot;,var&quot;#s107&quot;,Univariate} where var&quot;#s107&quot;&lt;:Bijector where var&quot;#s108&quot;&lt;:Distribution,Real}"><code class="language-plaintext highlighter-rouge">Bijectors.logpdf_with_jac</code></a></li>
@@ -942,7 +943,7 @@ end
 
 <p>Returns the constructor of the coupling law.</p>
 
-<p><a id="Bijectors.find_alpha-Tuple{Any,Any,Any}" href="#Bijectors.find_alpha-Tuple{Any,Any,Any}">#</a>
+<p><a id="Bijectors.find_alpha-Tuple{Real,Real,Real}" href="#Bijectors.find_alpha-Tuple{Real,Real,Real}">#</a>
 <strong><code class="language-plaintext highlighter-rouge">Bijectors.find_alpha</code></strong> — <em>Method</em>.</p>
 
 <div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">find_alpha</span><span class="x">(</span><span class="n">wt_y</span><span class="x">,</span> <span class="n">wt_u_hat</span><span class="x">,</span> <span class="n">b</span><span class="x">)</span>
@@ -1016,6 +1017,32 @@ end
   <li><code class="language-plaintext highlighter-rouge">logabsdetjac = 0.0</code></li>
   <li><code class="language-plaintext highlighter-rouge">logpdf</code> is logpdf of <code class="language-plaintext highlighter-rouge">x</code></li>
 </ul>
+
+<p><a id="Bijectors.get_u_hat-Tuple{AbstractArray{var&quot;#s106&quot;,1} where var&quot;#s106&quot;&lt;:Real,AbstractArray{var&quot;#s105&quot;,1} where var&quot;#s105&quot;&lt;:Real}" href="#Bijectors.get_u_hat-Tuple{AbstractArray{var&quot;#s106&quot;,1} where var&quot;#s106&quot;&lt;:Real,AbstractArray{var&quot;#s105&quot;,1} where var&quot;#s105&quot;&lt;:Real}">#</a>
+<strong><code class="language-plaintext highlighter-rouge">Bijectors.get_u_hat</code></strong> — <em>Method</em>.</p>
+
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">get_u_hat</span><span class="x">(</span><span class="n">u</span><span class="o">::</span><span class="kt">AbstractVector</span><span class="x">{</span><span class="o">&lt;:</span><span class="kt">Real</span><span class="x">},</span> <span class="n">w</span><span class="o">::</span><span class="kt">AbstractVector</span><span class="x">{</span><span class="o">&lt;:</span><span class="kt">Real</span><span class="x">})</span>
+</code></pre></div></div>
+
+<p>Return a tuple of vector $û$ that guarantees invertibility of the planar layer, and scalar $wᵀ û$.</p>
+
+<p><strong>Mathematical background</strong></p>
+
+<p>According to appendix A.1, vector $û$ defined by</p>
+
+\[û(w, u) = u + (\log(1 + \exp{(wᵀu)}) - 1 - wᵀu) \frac{w}{\|w\|²}\]
+
+<p>guarantees that the planar layer $f(z) = z + û tanh(wᵀz + b)$ is invertible for all $w, u ∈ ℝᵈ$ and $b ∈ ℝ$. We can rewrite $û$ as</p>
+
+\[û = u + (\log(1 + \exp{(-wᵀu)}) - 1) \frac{w}{\|w\|²}.\]
+
+<p>Additionally, we obtain</p>
+
+\[wᵀû = wᵀu + \log(1 + \exp{(-wᵀu)}) - 1 = \log(1 + \exp{(wᵀu)}) - 1.\]
+
+<p><strong>References</strong></p>
+
+<p>D. Rezende, S. Mohamed (2015): Variational Inference with Normalizing Flows. arXiv:1505.05770</p>
 
 <p><a id="Bijectors.isclosedform-Tuple{Bijector}" href="#Bijectors.isclosedform-Tuple{Bijector}">#</a>
 <strong><code class="language-plaintext highlighter-rouge">Bijectors.isclosedform</code></strong> — <em>Method</em>.</p>
