@@ -201,9 +201,9 @@ version = "0.24.10"
 
 [[DistributionsAD]]
 deps = ["Adapt", "ChainRules", "ChainRulesCore", "Compat", "DiffRules", "Distributions", "FillArrays", "ForwardDiff", "LinearAlgebra", "NaNMath", "PDMats", "Random", "Requires", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "ZygoteRules"]
-git-tree-sha1 = "e5632fda8f17e455e1db615890d41468522ad6a9"
+git-tree-sha1 = "6aace6fff56ed9fde1bc50e14b5e9a3d16b3dedd"
 uuid = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
-version = "0.6.14"
+version = "0.6.15"
 
 [[DocStringExtensions]]
 deps = ["LibGit2", "Markdown", "Pkg", "Test"]
