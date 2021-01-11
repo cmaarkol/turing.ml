@@ -81,10 +81,10 @@ version = "0.3.29"
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[Bijectors]]
-deps = ["ArgCheck", "Compat", "Distributions", "LinearAlgebra", "MappedArrays", "NNlib", "NonlinearSolve", "Random", "Reexport", "Requires", "SparseArrays", "Statistics", "StatsFuns"]
-git-tree-sha1 = "66d899a108487588b62e04b939610667f0d19d80"
+deps = ["ArgCheck", "ChainRulesCore", "Compat", "Distributions", "LinearAlgebra", "MappedArrays", "NNlib", "NonlinearSolve", "Random", "Reexport", "Requires", "SparseArrays", "Statistics", "StatsFuns"]
+git-tree-sha1 = "e85c654943615af69d504b05fc7d5408dc40a53f"
 uuid = "76274a88-744f-5084-9051-94815aaf08c4"
-version = "0.8.12"
+version = "0.8.13"
 
 [[BinaryProvider]]
 deps = ["Libdl", "Logging", "SHA"]
