@@ -99,10 +99,10 @@ uuid = "082447d4-558c-5d27-93f4-14fc19e9eca2"
 version = "0.7.46"
 
 [[ChainRulesCore]]
-deps = ["LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "0acfdec745cb4cb38ad23c8668a1b7e58b42594a"
+deps = ["Compat", "LinearAlgebra", "SparseArrays"]
+git-tree-sha1 = "89a0b14325d0f02f9caed7c8ba91181a5d254874"
 uuid = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-version = "0.9.25"
+version = "0.9.26"
 
 [[Combinatorics]]
 git-tree-sha1 = "08c8b6831dc00bfea825826be0bc8336fc369860"
@@ -383,9 +383,9 @@ version = "4.4.0"
 
 [[MLJModelInterface]]
 deps = ["Random", "ScientificTypes"]
-git-tree-sha1 = "6ac897581ef6e949cf3a4ca28f7bcee4674538e7"
+git-tree-sha1 = "dc9af7178bdbe2619623be56fc127fe8b0d30c78"
 uuid = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
-version = "0.3.7"
+version = "0.3.8"
 
 [[MacroTools]]
 deps = ["Markdown", "Random"]
@@ -657,9 +657,9 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[Tracker]]
 deps = ["Adapt", "DiffRules", "ForwardDiff", "LinearAlgebra", "MacroTools", "NNlib", "NaNMath", "Printf", "Random", "Requires", "SpecialFunctions", "Statistics"]
-git-tree-sha1 = "ada554b677b58b6828e1340ff3b2661d5e51e159"
+git-tree-sha1 = "3086721cf3007c4b335f30d8628446a35f32adb5"
 uuid = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
-version = "0.2.14"
+version = "0.2.15"
 
 [[Transducers]]
 deps = ["ArgCheck", "BangBang", "CompositionsBase", "DefineSingletons", "Distributed", "InitialValues", "Logging", "Markdown", "MicroCollections", "Requires", "Setfield", "SplittablesBase", "Tables"]
