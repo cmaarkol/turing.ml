@@ -20,9 +20,9 @@ version = "0.3.3"
 
 [[Adapt]]
 deps = ["LinearAlgebra"]
-git-tree-sha1 = "345a14764e43fe927d6f5c250fe4c8e4664e6ee8"
+git-tree-sha1 = "87491f7d03ae1b423a353aff99cf61a45e3c993a"
 uuid = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-version = "2.4.0"
+version = "3.1.0"
 
 [[AdvancedHMC]]
 deps = ["ArgCheck", "DocStringExtensions", "InplaceOps", "LinearAlgebra", "Parameters", "ProgressMeter", "Random", "Requires", "Statistics", "StatsBase", "StatsFuns"]
@@ -94,9 +94,9 @@ version = "0.5.10"
 
 [[ChainRules]]
 deps = ["ChainRulesCore", "Compat", "LinearAlgebra", "Random", "Reexport", "Requires", "Statistics"]
-git-tree-sha1 = "b287f130a0f32011a8f08ab4c8e5d797b4c16117"
+git-tree-sha1 = "011631a8b309f5ad49a53f6353d90cf2dd569a04"
 uuid = "082447d4-558c-5d27-93f4-14fc19e9eca2"
-version = "0.7.46"
+version = "0.7.47"
 
 [[ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
@@ -201,9 +201,9 @@ version = "0.24.10"
 
 [[DistributionsAD]]
 deps = ["Adapt", "ChainRules", "ChainRulesCore", "Compat", "DiffRules", "Distributions", "FillArrays", "ForwardDiff", "LinearAlgebra", "NaNMath", "PDMats", "Random", "Requires", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "ZygoteRules"]
-git-tree-sha1 = "6aace6fff56ed9fde1bc50e14b5e9a3d16b3dedd"
+git-tree-sha1 = "bfd96554c10aae95323d54b09346b1bed1baecb6"
 uuid = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
-version = "0.6.15"
+version = "0.6.16"
 
 [[DocStringExtensions]]
 deps = ["LibGit2", "Markdown", "Pkg", "Test"]
@@ -231,9 +231,9 @@ version = "0.1.9"
 
 [[DynamicPPL]]
 deps = ["AbstractMCMC", "Bijectors", "ChainRulesCore", "Distributions", "MacroTools", "NaturalSort", "Random"]
-git-tree-sha1 = "9c1a6e5d17ef7fc73daa1381824894810b6f1dd9"
+git-tree-sha1 = "3833d08e9be7c58d2b88e0519c46aa1150f7c3ae"
 uuid = "366bfd00-2699-11ea-058f-f148b4cae6d8"
-version = "0.10.5"
+version = "0.10.6"
 
 [[EllipsisNotation]]
 git-tree-sha1 = "18ee049accec8763be17a933737c1dd0fdf8673a"
@@ -371,9 +371,9 @@ uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 [[LoggingExtras]]
 deps = ["Dates"]
-git-tree-sha1 = "03289aba73c0abc25ff0229bed60f2a4129cd15c"
+git-tree-sha1 = "901d140cae5e9319ffbd8ed1e468e842b3b3852b"
 uuid = "e6f89c97-d47a-5376-807f-9c37f3926c36"
-version = "0.4.2"
+version = "0.4.3"
 
 [[MCMCChains]]
 deps = ["AbstractFFTs", "AbstractMCMC", "AxisArrays", "Compat", "Distributions", "Formatting", "IteratorInterfaceExtensions", "LinearAlgebra", "MLJModelInterface", "NaturalSort", "PrettyTables", "Random", "RecipesBase", "Serialization", "SpecialFunctions", "Statistics", "StatsBase", "TableTraits", "Tables"]
