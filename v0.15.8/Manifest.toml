@@ -81,10 +81,10 @@ version = "0.3.29"
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[Bijectors]]
-deps = ["ArgCheck", "ChainRulesCore", "Compat", "Distributions", "LinearAlgebra", "MappedArrays", "NNlib", "NonlinearSolve", "Random", "Reexport", "Requires", "SparseArrays", "Statistics", "StatsFuns"]
-git-tree-sha1 = "e85c654943615af69d504b05fc7d5408dc40a53f"
+deps = ["ArgCheck", "ChainRulesCore", "Compat", "Distributions", "Functors", "LinearAlgebra", "MappedArrays", "NNlib", "NonlinearSolve", "Random", "Reexport", "Requires", "SparseArrays", "Statistics", "StatsFuns"]
+git-tree-sha1 = "fe3cf20173d8bd9a65e6c18f20d2efee5fa4e83e"
 uuid = "76274a88-744f-5084-9051-94815aaf08c4"
-version = "0.8.13"
+version = "0.8.14"
 
 [[BinaryProvider]]
 deps = ["Libdl", "Logging", "SHA"]
@@ -94,9 +94,9 @@ version = "0.5.10"
 
 [[ChainRules]]
 deps = ["ChainRulesCore", "Compat", "LinearAlgebra", "Random", "Reexport", "Requires", "Statistics"]
-git-tree-sha1 = "011631a8b309f5ad49a53f6353d90cf2dd569a04"
+git-tree-sha1 = "0af5c12e5528fc2df87a5f084195f10bfbf03a28"
 uuid = "082447d4-558c-5d27-93f4-14fc19e9eca2"
-version = "0.7.47"
+version = "0.7.48"
 
 [[ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
@@ -278,6 +278,12 @@ deps = ["CommonSubexpressions", "DiffResults", "DiffRules", "NaNMath", "Random",
 git-tree-sha1 = "8de2519a83c6c1c2442c2f481dd9a8364855daf4"
 uuid = "f6369f11-7733-5829-9624-2563aa707210"
 version = "0.10.14"
+
+[[Functors]]
+deps = ["MacroTools"]
+git-tree-sha1 = "f40adc6422f548176bb4351ebd29e4abf773040a"
+uuid = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+version = "0.1.0"
 
 [[Future]]
 deps = ["Random"]
