@@ -169,9 +169,9 @@ deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 [[DefineSingletons]]
-git-tree-sha1 = "1a356f194281dff9ef1119faa9125a0d4e210729"
+git-tree-sha1 = "77b4ca280084423b728662fe040e5ff8819347c5"
 uuid = "244e2a9f-e319-4986-a169-4d1fe445cd52"
-version = "0.1.0"
+version = "0.1.1"
 
 [[DelimitedFiles]]
 deps = ["Mmap"]
@@ -377,9 +377,9 @@ uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 [[LoggingExtras]]
 deps = ["Dates"]
-git-tree-sha1 = "901d140cae5e9319ffbd8ed1e468e842b3b3852b"
+git-tree-sha1 = "70518b2cce1fea30c5e9dd0c44407a90f394de47"
 uuid = "e6f89c97-d47a-5376-807f-9c37f3926c36"
-version = "0.4.3"
+version = "0.4.4"
 
 [[MCMCChains]]
 deps = ["AbstractFFTs", "AbstractMCMC", "AxisArrays", "Compat", "Distributions", "Formatting", "IteratorInterfaceExtensions", "LinearAlgebra", "MLJModelInterface", "NaturalSort", "PrettyTables", "Random", "RecipesBase", "Serialization", "SpecialFunctions", "Statistics", "StatsBase", "TableTraits", "Tables"]
@@ -609,9 +609,9 @@ version = "1.2.1"
 
 [[SplittablesBase]]
 deps = ["Setfield", "Test"]
-git-tree-sha1 = "ab80edcbd61a44a4dc489d06ead964a863c0a898"
+git-tree-sha1 = "e6e5e266aa58c2e419d19e8eccbe6af55d5dc6e1"
 uuid = "171d559e-b47b-412a-8079-5efa626c420e"
-version = "0.1.10"
+version = "0.1.11"
 
 [[StaticArrays]]
 deps = ["LinearAlgebra", "Random", "Statistics"]
