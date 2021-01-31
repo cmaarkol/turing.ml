@@ -624,9 +624,9 @@ version = "0.1.0"
 
 [[SciMLBase]]
 deps = ["ArrayInterface", "CommonSolve", "Distributed", "DocStringExtensions", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "RecipesBase", "RecursiveArrayTools", "StaticArrays", "Statistics", "Tables", "TreeViews"]
-git-tree-sha1 = "f1af9b05027cff8cb3625208a894337ac8429747"
+git-tree-sha1 = "07bbe54bfc7263b1aa4920940201d00a6d427293"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.2.0"
+version = "1.4.0"
 
 [[ScientificTypes]]
 git-tree-sha1 = "1d3f5f8bdf5dd0c9951eb9c595ee08a728aec331"
@@ -667,9 +667,9 @@ version = "1.2.1"
 
 [[SplittablesBase]]
 deps = ["Setfield", "Test"]
-git-tree-sha1 = "c2b4f3cd29827787a5f61afe12ea13222197ab98"
+git-tree-sha1 = "edef25a158db82f4940720ebada14a60ef6c4232"
 uuid = "171d559e-b47b-412a-8079-5efa626c420e"
-version = "0.1.12"
+version = "0.1.13"
 
 [[StaticArrays]]
 deps = ["LinearAlgebra", "Random", "Statistics"]
