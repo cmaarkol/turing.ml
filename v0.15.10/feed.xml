@@ -1,5 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/dev/feed.xml" rel="self" type="application/atom+xml" /><link href="/dev/" rel="alternate" type="text/html" /><updated>2021-02-10T23:19:34+00:00</updated><id>/dev/feed.xml</id><title type="html">Turing.jl</title><subtitle>Turing: A robust, efficient and modular library for general-purpose probabilistic programming.
-</subtitle><author><name>The Turing Team</name></author><entry><title type="html">Google Summer of Code 2020</title><link href="/dev/posts/2020-09-11-gsoc" rel="alternate" type="text/html" title="Google Summer of Code 2020" /><published>2020-09-11T00:00:00+00:00</published><updated>2020-09-11T00:00:00+00:00</updated><id>/dev/posts/gsoc</id><content type="html" xml:base="/dev/posts/2020-09-11-gsoc">&lt;p&gt;As the 2020 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google Summer of Code&lt;/a&gt; comes to a close, the Turing team thought it would be a good opportunity to reflect on the work that was done by our superb students this summer.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/dev/feed.xml" rel="self" type="application/atom+xml" /><link href="/dev/" rel="alternate" type="text/html" /><updated>2021-02-10T23:24:37+00:00</updated><id>/dev/feed.xml</id><title type="html">Turing.jl</title><subtitle>Turing: A robust, efficient and modular library for general-purpose probabilistic programming.
+</subtitle><author><name>The Turing Team</name></author><entry><title type="html">Google Summer of Code 2021</title><link href="/dev/posts/2021-02-04-gsoc" rel="alternate" type="text/html" title="Google Summer of Code 2021" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>/dev/posts/gsoc</id><content type="html" xml:base="/dev/posts/2021-02-04-gsoc">&lt;p&gt;It’s about time for us to start thinking about projects we’d like to see at Turing.jl for the &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google Summer of Code 2021&lt;/a&gt;! Below is a list of projects the Turing team would be interested in working with students on for the summer.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in exploring any of these projects, please reach out to the listed project mentors. You can find their contact information at &lt;a href=&quot;https://turing.ml/team&quot;&gt;turing.ml/team&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;mcmcchains-improvements&quot;&gt;MCMCChains improvements&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Mentors&lt;/strong&gt;: Cameron Pfiffer, Hong Ge&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project difficulty&lt;/strong&gt;: Easy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;: MCMCChains is a key component of the Turing.jl ecosystem. It is the package that determines how to analyze and store MCMC samples provided by packages like Turing. It’s also used outside of Turing.&lt;/p&gt;
+
+&lt;p&gt;For this project, a student might improve the performance of the various statistical functions provided by MCMCChains, changing the back end to use a data storage format that maintains the shape of parameter samples, or improve the general plotting functionality of the package.&lt;/p&gt;
+
+&lt;p&gt;There’s lots of fun little things to do for MCMCChains. Check out this &lt;a href=&quot;https://github.com/TuringLang/MCMCChains.jl/issues/246&quot;&gt;meta-issue&lt;/a&gt; for more details and dicussions.&lt;/p&gt;
+
+&lt;h1 id=&quot;particle-filtering-methods&quot;&gt;Particle filtering methods&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Mentors&lt;/strong&gt;: Hong Ge, Cameron Pfiffer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project difficulty&lt;/strong&gt;: Medium&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;: Turing’s support for particle sampling methods is slowing being improved with the addition of &lt;a href=&quot;https://github.com/TuringLang/AdvancedPS.jl&quot;&gt;AdvancedPS.jl&lt;/a&gt;. If you’re interested in implementing or improving particle sampling methods, this is a great project for you!&lt;/p&gt;
+
+&lt;h1 id=&quot;nested-sampling&quot;&gt;Nested Sampling&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Mentors&lt;/strong&gt;: Miles Lucas, Cameron Pfiffer, Hong Ge&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project difficulty&lt;/strong&gt;: Hard&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;: &lt;a href=&quot;https://github.com/TuringLang/NestedSamplers.jl&quot;&gt;NestedSamplers.jl&lt;/a&gt; is an excellent package which implements nested sampling methods. As of yet, it is not connected to Turing.jl. For this project, a student would connect the NestedSamplers.jl library to Turing.jl.&lt;/p&gt;
+
+&lt;h1 id=&quot;gpu-acceleration&quot;&gt;GPU acceleration&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Mentors&lt;/strong&gt;: Mohamed Tarek, Hong Ge, Kai Xu&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project difficulty&lt;/strong&gt;: Medium&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;: Turing’s native GPU support is limited in that the Metropolis-Hastings and HMC samplers do not implement GPU sampling methods. This can and should be done – GPU methods are awesome! If you are interested with working on parallelism and GPUs, this project is for you.&lt;/p&gt;
+
+&lt;p&gt;Students will work with the code at &lt;a href=&quot;https://github.com/TuringLang/AdvancedMH.jl&quot;&gt;AdvancedMH&lt;/a&gt; or &lt;a href=&quot;https://github.com/TuringLang/AdvancedHMC.jl&quot;&gt;AdvancedHMC&lt;/a&gt;, depending on their interests.&lt;/p&gt;
+
+&lt;h1 id=&quot;documentation-and-tutorial-improvements&quot;&gt;Documentation and tutorial improvements&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Mentors&lt;/strong&gt;: Cameron Pfiffer, Martin Trapp&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project difficulty&lt;/strong&gt;: Easy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;: Turing’s documentation and tutorials need a bit of an overhaul. Turing has changed significantly since the last time the documentation was written, and it’s beginning to show. Students would use their knowledge of probabilistic programming languages and Turing to shore-up or rewrite documentation and tutorials.&lt;/p&gt;
+
+&lt;h1 id=&quot;iterative-methods-for-inference-in-gaussian-processes&quot;&gt;Iterative Methods for Inference in Gaussian Processes&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Mentors&lt;/strong&gt;: Will Tebbutt, S. T. John, Theo Galy-Fajou&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project difficulty&lt;/strong&gt;: Medium&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;: There has recently been quite a bit of work on inference methods for GPs that use iterative methods rather than the Cholesky factorisation. They look quite promising, but one has implemented any of these within the Julia GP ecosystem yet, but they should fit nicely within the AbstractGPs framework. If you’re interested in improving the GP ecosystem in Julia, this project might be for you!&lt;/p&gt;</content><author><name>Cameron Pfiffer</name></author><summary type="html">It’s about time for us to start thinking about projects we’d like to see at Turing.jl for the Google Summer of Code 2021! Below is a list of projects the Turing team would be interested in working with students on for the summer.</summary></entry><entry><title type="html">Google Summer of Code 2020</title><link href="/dev/posts/2020-09-11-gsoc" rel="alternate" type="text/html" title="Google Summer of Code 2020" /><published>2020-09-11T00:00:00+00:00</published><updated>2020-09-11T00:00:00+00:00</updated><id>/dev/posts/gsoc</id><content type="html" xml:base="/dev/posts/2020-09-11-gsoc">&lt;p&gt;As the 2020 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google Summer of Code&lt;/a&gt; comes to a close, the Turing team thought it would be a good opportunity to reflect on the work that was done by our superb students this summer.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/SaranjeetKaur&quot;&gt;Saranjeet Kaur&lt;/a&gt;’s &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#6567464390885376&quot;&gt;project&lt;/a&gt; focused primarily on expanding &lt;a href=&quot;https://github.com/TuringLang/NestedSamplers.jl&quot;&gt;NestedSamplers.jl&lt;/a&gt;. NestedSamplers.jl now supports &lt;a href=&quot;https://arxiv.org/abs/1506.00171&quot;&gt;PolyChord-style&lt;/a&gt; nested sampling natively, which is an absolute delight. Saranjeet wrote about this &lt;a href=&quot;https://nextjournal.com/Saranjeet-Kaur/extending-nestedsamplersjl&quot;&gt;here&lt;/a&gt;. She also provided a good tutorial on how to use NestedSamplers.jl &lt;a href=&quot;https://nextjournal.com/Saranjeet-Kaur/illustrations-of-use-of-nestedsamplersjl&quot;&gt;here&lt;/a&gt;. The NestedSamplers.jl integration with Turing is still on-going – integrating new samplers with Turing is one of the more difficult tasks. If you are interested to see the progress on this, check out the relevant &lt;a href=&quot;https://github.com/TuringLang/Turing.jl/pull/1333&quot;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
 
