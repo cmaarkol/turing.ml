@@ -258,9 +258,9 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[FillArrays]]
 deps = ["LinearAlgebra", "Random", "SparseArrays"]
-git-tree-sha1 = "50eabdace27aa27b143f65b65e762bb0112a7708"
+git-tree-sha1 = "e384d3cff80ac79c7a541a817192841836e46331"
 uuid = "1a297f60-69ca-5386-bcde-b61e274b549b"
-version = "0.11.1"
+version = "0.11.2"
 
 [[FiniteDiff]]
 deps = ["ArrayInterface", "LinearAlgebra", "Requires", "SparseArrays", "StaticArrays"]
@@ -419,9 +419,9 @@ version = "0.11.2"
 
 [[MCMCChains]]
 deps = ["AbstractFFTs", "AbstractMCMC", "AxisArrays", "Compat", "Distributions", "Formatting", "IteratorInterfaceExtensions", "LinearAlgebra", "MLJModelInterface", "NaturalSort", "PrettyTables", "Random", "RecipesBase", "Serialization", "SpecialFunctions", "Statistics", "StatsBase", "TableTraits", "Tables"]
-git-tree-sha1 = "49161b1d13398ee04e1478052cb5de6ed2f69280"
+git-tree-sha1 = "57073cce815ff9ef9f093ac950fe6bb1d077d2f3"
 uuid = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
-version = "4.6.0"
+version = "4.7.0"
 
 [[MLJModelInterface]]
 deps = ["Random", "ScientificTypes", "StatisticalTraits"]
@@ -529,9 +529,9 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[PrettyTables]]
 deps = ["Crayons", "Formatting", "Markdown", "Reexport", "Tables"]
-git-tree-sha1 = "237170206bf38a66fee4d845f4ae57f63788eeb0"
+git-tree-sha1 = "574a6b3ea95f04e8757c0280bb9c29f1a5e35138"
 uuid = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
-version = "0.10.1"
+version = "0.11.1"
 
 [[Printf]]
 deps = ["Unicode"]
