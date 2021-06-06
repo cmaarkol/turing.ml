@@ -235,7 +235,6 @@
                 <div class="md-content full-width"> 
     <article class="md-content__inner md-typeset  full-width">
     <h1 id="news-archive">News Archive</h1>
-
 <h2 class="c-archives__year" id="2021-ref">2021</h2>
 <ul class="c-archives__list">
 <li class="c-archives__item">
@@ -244,26 +243,18 @@
 </ul>
 <h2 class="c-archives__year" id="2020-ref">2020</h2>
 <ul class="c-archives__list">
-
-
 <li class="c-archives__item">
   Sep 11, 2020: <a href="/dev/posts/2020-09-11-gsoc">Google Summer of Code 2020</a>
   </li>
-
-
 <li class="c-archives__item">
   May 14, 2020: <a href="/dev/posts/2020-05-04-Imperial-Report13-analysis">Replication study: Estimating number of infections and impact of NPIs on COVID-19 in European countries (Imperial Report 13)</a>
   </li>
-
-
 <li class="c-archives__item">
   Feb 12, 2020: <a href="/dev/posts/2020-02-12-jsoc">Google Summer of Code/Julia Summer of Code</a>
   </li>
 </ul>
 <h2 class="c-archives__year" id="2019-ref">2019</h2>
 <ul class="c-archives__list">
-
-
 <li class="c-archives__item">
   Dec 14, 2019: <a href="/dev/posts/2019-12-14-initial-post">Turing's Blog</a>
   </li></ul>
@@ -371,41 +362,49 @@ $(document).ready(function() {
     <script src="/dev/assets/js/version-switch.js"></script>
 
     <script>
-var headers = ["h1", "h2", "h3", "h4"]
-var colors = ["red", "orange", "green", "blue"]
+ var headers = ["h1", "h2", "h3", "h4"]
+ var colors = ["red", "orange", "green", "blue"]
 
-$.each(headers, function(i, header){
-    var color = colors[i];
-    $(header).each(function () {
-        var href=$(this).attr("id");
-        $(this).append('<a class="headerlink" style="color:' + color + '" href="#' + href + '" title="Permanent link">¶</a>')
-    });
-})
+ $.each(headers, function(i, header){
+   var color = colors[i];
+   $(header).each(function () {
+     var href=$(this).attr("id");
+     $(this).append('<a class="headerlink" style="color:' + color + '" href="#' + href + '" title="Permanent link">¶</a>')
+   });
+ })
 
-// Ensure that sidebar on left has arrows
-$(".pancakes-parent").on('click', function(){
-    console.log($(this).next());
-    $(this).next().find('.pancakes-child').toggle();
-    if ($(this).hasClass('open-parent')){
-        $(this).removeClass('open-parent');
-    } else {
-        $(this).addClass('open-parent');
-    }
-})
+ // Ensure that sidebar on left has arrows
+ $(".pancakes-parent").on('click', function(){
+   console.log($(this).next());
+   $(this).next().find('.pancakes-child').toggle();
+   if ($(this).hasClass('open-parent')){
+     $(this).removeClass('open-parent');
+   } else {
+     $(this).addClass('open-parent');
+   }
+ })
 
-$(".pancakes-parent-mobile").on('click', function(){
-    var nav = $(this).next();
-     nav.addClass('mobile-sub-navbar-display');
-})
+ $(".pancakes-parent-mobile").on('click', function(){
+   var nav = $(this).next();
+   nav.addClass('mobile-sub-navbar-display');
+ })
 
-$(".mobile-navbar-back").on('click', function(){
-    var nav = $(this).parent();
-    nav.removeClass('mobile-sub-navbar-display');
-})
+ $(".mobile-navbar-back").on('click', function(){
+   var nav = $(this).parent();
+   nav.removeClass('mobile-sub-navbar-display');
+ })
 
 </script>
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+
+<script>
+ MathJax = {
+   tex: {
+     inlineMath: [['$', '$'], ['$$', '$$']]
+   }
+ };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
     

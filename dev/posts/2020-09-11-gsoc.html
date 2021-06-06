@@ -241,26 +241,20 @@
     <span class="post-date" style="font-style: italic;">September 11, 2020</span>
 
     <p>As the 2020 <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> comes to a close, the Turing team thought it would be a good opportunity to reflect on the work that was done by our superb students this summer.</p>
-
-<p><a href="https://github.com/SaranjeetKaur">Saranjeet Kaur</a>’s <a href="https://summerofcode.withgoogle.com/projects/#6567464390885376">project</a> focused primarily on expanding <a href="https://github.com/TuringLang/NestedSamplers.jl">NestedSamplers.jl</a>. NestedSamplers.jl now supports <a href="https://arxiv.org/abs/1506.00171">PolyChord-style</a> nested sampling natively, which is an absolute delight. Saranjeet wrote about this <a href="https://nextjournal.com/Saranjeet-Kaur/extending-nestedsamplersjl">here</a>. She also provided a good tutorial on how to use NestedSamplers.jl <a href="https://nextjournal.com/Saranjeet-Kaur/illustrations-of-use-of-nestedsamplersjl">here</a>. The NestedSamplers.jl integration with Turing is still on-going – integrating new samplers with Turing is one of the more difficult tasks. If you are interested to see the progress on this, check out the relevant <a href="https://github.com/TuringLang/Turing.jl/pull/1333">pull request</a>.</p>
-
-<p><a href="https://github.com/luiarthur">Arthur Lui</a>’s <a href="https://summerofcode.withgoogle.com/projects/#5861616765108224">project</a> was to provide a much-needed set of benchmarks of Bayesian nonparametric models between Turing and other PPLs. Arthur’s work spawned a <a href="https://github.com/luiarthur/TuringBnpBenchmarks">GitHub repository</a> with good practices for benchmarking, as well as three blog posts with some (very cool!) statistics on Turing’s performance:</p>
-
+<p><a href="https://github.com/SaranjeetKaur">Saranjeet Kaur</a>'s <a href="https://summerofcode.withgoogle.com/projects/#6567464390885376">project</a> focused primarily on expanding <a href="https://github.com/TuringLang/NestedSamplers.jl">NestedSamplers.jl</a>. NestedSamplers.jl now supports <a href="https://arxiv.org/abs/1506.00171">PolyChord-style</a> nested sampling natively, which is an absolute delight. Saranjeet wrote about this <a href="https://nextjournal.com/Saranjeet-Kaur/extending-nestedsamplersjl">here</a>. She also provided a good tutorial on how to use NestedSamplers.jl <a href="https://nextjournal.com/Saranjeet-Kaur/illustrations-of-use-of-nestedsamplersjl">here</a>. The NestedSamplers.jl integration with Turing is still on-going -- integrating new samplers with Turing is one of the more difficult tasks. If you are interested to see the progress on this, check out the relevant <a href="https://github.com/TuringLang/Turing.jl/pull/1333">pull request</a>.</p>
+<p><a href="https://github.com/luiarthur">Arthur Lui</a>'s <a href="https://summerofcode.withgoogle.com/projects/#5861616765108224">project</a> was to provide a much-needed set of benchmarks of Bayesian nonparametric models between Turing and other PPLs. Arthur's work spawned a <a href="https://github.com/luiarthur/TuringBnpBenchmarks">GitHub repository</a> with good practices for benchmarking, as well as three blog posts with some (very cool!) statistics on Turing's performance:</p>
 <ol>
-  <li><a href="https://luiarthur.github.io/TuringBnpBenchmarks/dpsbgmm">Dirichlet Process Gaussian mixture model via the stick-breaking construction in various PPLs</a></li>
-  <li><a href="https://luiarthur.github.io/TuringBnpBenchmarks/gp">Gaussian Process Regression Model in various PPLs</a></li>
-  <li><a href="https://luiarthur.github.io/TuringBnpBenchmarks/gpclassify">Gaussian Process Classification Model in various PPLs</a></li>
+<li><a href="https://luiarthur.github.io/TuringBnpBenchmarks/dpsbgmm">Dirichlet Process Gaussian mixture model via the stick-breaking construction in various PPLs</a></li>
+<li><a href="https://luiarthur.github.io/TuringBnpBenchmarks/gp">Gaussian Process Regression Model in various PPLs</a></li>
+<li><a href="https://luiarthur.github.io/TuringBnpBenchmarks/gpclassify">Gaussian Process Classification Model in various PPLs</a></li>
 </ol>
-
-<p>Finally, <a href="https://github.com/sharanry">Sharan Yalburgi</a> (a returning GSoC student) completed an epic amount of work Turing’s growing suite of <a href="https://summerofcode.withgoogle.com/projects/#5565948129443840">Gaussian process tools</a>. In particular, the GitHub organization <a href="https://github.com/JuliaGaussianProcesses">JuliaGaussianProcesses</a> was founded, and serves as an effort to build a robust Gaussian process framework for the Julia ecosystem. The framework consists of multiple GP related Julia packages:</p>
-
+<p>Finally, <a href="https://github.com/sharanry">Sharan Yalburgi</a> (a returning GSoC student) completed an epic amount of work Turing's growing suite of <a href="https://summerofcode.withgoogle.com/projects/#5565948129443840">Gaussian process tools</a>. In particular, the GitHub organization <a href="https://github.com/JuliaGaussianProcesses">JuliaGaussianProcesses</a> was founded, and serves as an effort to build a robust Gaussian process framework for the Julia ecosystem. The framework consists of multiple GP related Julia packages:</p>
 <ul>
-  <li><a href="https://github.com/JuliaGaussianProcesses/KernelFunctions.jl">KernelFunctions.jl</a> provides kernel functions for GPs as well as efficient AD for these kernels. KernelFunctions.jl also supports multi-output GPs by providing necessary data abstractions and multi-output kernels.</li>
-  <li><a href="https://github.com/JuliaGaussianProcesses/AbstractGPs.jl">AbstractGPs.jl</a> defines GP abstractions and provides exact posteriors. It provides support for induced points based GP posteriors and for efficient sequential/online (sparse) GP updates.</li>
-  <li><a href="https://github.com/JuliaGaussianProcesses/GPLikelihoods.jl">GPLikelihoods.jl</a> defines alternate likelihoods for Non-Gaussian GPs.</li>
-  <li><a href="https://github.com/JuliaGaussianProcesses/GPMLj.jl">GPMLj.jl</a> provides a Julia interface for <a href="https://github.com/GPflow/GPflow">GPFlow</a>, a GP library written in Python using TensorFlow.</li>
+<li><a href="https://github.com/JuliaGaussianProcesses/KernelFunctions.jl">KernelFunctions.jl</a> provides kernel functions for GPs as well as efficient AD for these kernels. KernelFunctions.jl also supports multi-output GPs by providing necessary data abstractions and multi-output kernels.</li>
+<li><a href="https://github.com/JuliaGaussianProcesses/AbstractGPs.jl">AbstractGPs.jl</a> defines GP abstractions and provides exact posteriors. It provides support for induced points based GP posteriors and for efficient sequential/online (sparse) GP updates.</li>
+<li><a href="https://github.com/JuliaGaussianProcesses/GPLikelihoods.jl">GPLikelihoods.jl</a> defines alternate likelihoods for Non-Gaussian GPs.</li>
+<li><a href="https://github.com/JuliaGaussianProcesses/GPMLj.jl">GPMLj.jl</a> provides a Julia interface for <a href="https://github.com/GPflow/GPflow">GPFlow</a>, a GP library written in Python using TensorFlow.</li>
 </ul>
-
 <p>Special thanks to our three GSoC students for this summer, who all did excellent work. Additional thanks to Google for supporting open source software development and the Julia language!</p>
 
 
@@ -332,41 +326,49 @@
     <script src="/dev/assets/js/version-switch.js"></script>
 
     <script>
-var headers = ["h1", "h2", "h3", "h4"]
-var colors = ["red", "orange", "green", "blue"]
+ var headers = ["h1", "h2", "h3", "h4"]
+ var colors = ["red", "orange", "green", "blue"]
 
-$.each(headers, function(i, header){
-    var color = colors[i];
-    $(header).each(function () {
-        var href=$(this).attr("id");
-        $(this).append('<a class="headerlink" style="color:' + color + '" href="#' + href + '" title="Permanent link">¶</a>')
-    });
-})
+ $.each(headers, function(i, header){
+   var color = colors[i];
+   $(header).each(function () {
+     var href=$(this).attr("id");
+     $(this).append('<a class="headerlink" style="color:' + color + '" href="#' + href + '" title="Permanent link">¶</a>')
+   });
+ })
 
-// Ensure that sidebar on left has arrows
-$(".pancakes-parent").on('click', function(){
-    console.log($(this).next());
-    $(this).next().find('.pancakes-child').toggle();
-    if ($(this).hasClass('open-parent')){
-        $(this).removeClass('open-parent');
-    } else {
-        $(this).addClass('open-parent');
-    }
-})
+ // Ensure that sidebar on left has arrows
+ $(".pancakes-parent").on('click', function(){
+   console.log($(this).next());
+   $(this).next().find('.pancakes-child').toggle();
+   if ($(this).hasClass('open-parent')){
+     $(this).removeClass('open-parent');
+   } else {
+     $(this).addClass('open-parent');
+   }
+ })
 
-$(".pancakes-parent-mobile").on('click', function(){
-    var nav = $(this).next();
-     nav.addClass('mobile-sub-navbar-display');
-})
+ $(".pancakes-parent-mobile").on('click', function(){
+   var nav = $(this).next();
+   nav.addClass('mobile-sub-navbar-display');
+ })
 
-$(".mobile-navbar-back").on('click', function(){
-    var nav = $(this).parent();
-    nav.removeClass('mobile-sub-navbar-display');
-})
+ $(".mobile-navbar-back").on('click', function(){
+   var nav = $(this).parent();
+   nav.removeClass('mobile-sub-navbar-display');
+ })
 
 </script>
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+
+<script>
+ MathJax = {
+   tex: {
+     inlineMath: [['$', '$'], ['$$', '$$']]
+   }
+ };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
     <script>
