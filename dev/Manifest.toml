@@ -866,9 +866,9 @@ version = "1.0.10"
 
 [[Plots]]
 deps = ["Base64", "Contour", "Dates", "FFMPEG", "FixedPointNumbers", "GR", "GeometryBasics", "JSON", "Latexify", "LinearAlgebra", "Measures", "NaNMath", "PlotThemes", "PlotUtils", "Printf", "REPL", "Random", "RecipesBase", "RecipesPipeline", "Reexport", "Requires", "Scratch", "Showoff", "SparseArrays", "Statistics", "StatsBase", "UUIDs"]
-git-tree-sha1 = "27cf598536826c3b3538b60241bfd39c73796005"
+git-tree-sha1 = "f0580f7e01e6d3d454baaa833ee3b19b65b9ff50"
 uuid = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-version = "1.16.2"
+version = "1.16.3"
 
 [[Polyester]]
 deps = ["ArrayInterface", "IfElse", "Requires", "Static", "StrideArraysCore", "ThreadingUtilities", "VectorizationBase"]
