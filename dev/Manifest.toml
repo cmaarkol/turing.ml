@@ -269,15 +269,15 @@ version = "0.26.3"
 
 [[DocumenterMarkdown]]
 deps = ["Documenter"]
-git-tree-sha1 = "48b1f89410cbe89199ff45d9e92723bc42fee55d"
+git-tree-sha1 = "9af057a98652336e30586d8092fac06f8b28ecdc"
 uuid = "997ab1e6-3595-5248-9280-8efb232c3433"
-version = "0.2.1"
+version = "0.2.2"
 
 [[DocumenterTools]]
 deps = ["AbstractTrees", "Base64", "DocStringExtensions", "Documenter", "FileWatching", "Gumbo", "LibGit2", "Sass"]
-git-tree-sha1 = "ce2ed9a6ecb1db632d06dd264c47c90e1e711f05"
+git-tree-sha1 = "c573d02d7dd0afded9c19da6f6e52021c62c692f"
 uuid = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
-version = "0.1.11"
+version = "0.1.12"
 
 [[Downloads]]
 deps = ["ArgTools", "LibCURL", "NetworkOptions"]
@@ -285,9 +285,9 @@ uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
 [[DynamicPPL]]
 deps = ["AbstractMCMC", "AbstractPPL", "Bijectors", "ChainRulesCore", "Distributions", "MacroTools", "Random", "ZygoteRules"]
-git-tree-sha1 = "4b6e8cb0ada077fd979bf51f0a5d064bfc13ee5c"
+git-tree-sha1 = "5121b72cbe2f92558754ad601a6af33c2bc5fdbe"
 uuid = "366bfd00-2699-11ea-058f-f148b4cae6d8"
-version = "0.11.4"
+version = "0.12.1"
 
 [[EarCut_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -639,9 +639,9 @@ version = "2.35.0+0"
 
 [[Libtask]]
 deps = ["Libtask_jll", "LinearAlgebra", "Statistics"]
-git-tree-sha1 = "a9574ddca280bb2d4dd61094f7d858db44ab706e"
+git-tree-sha1 = "6088b80fb5017440579ea8113a516ad2807afe19"
 uuid = "6f1fad26-d15e-5dc8-ae53-837a1d7b8c9f"
-version = "0.5.2"
+version = "0.5.1"
 
 [[Libtask_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -866,9 +866,9 @@ version = "1.0.10"
 
 [[Plots]]
 deps = ["Base64", "Contour", "Dates", "FFMPEG", "FixedPointNumbers", "GR", "GeometryBasics", "JSON", "Latexify", "LinearAlgebra", "Measures", "NaNMath", "PlotThemes", "PlotUtils", "Printf", "REPL", "Random", "RecipesBase", "RecipesPipeline", "Reexport", "Requires", "Scratch", "Showoff", "SparseArrays", "Statistics", "StatsBase", "UUIDs"]
-git-tree-sha1 = "e69bc8f4728cb6db3ac16e728dc52f9e5ab722b9"
+git-tree-sha1 = "e995fa1821b6daff8b107a8eafbec234ae2263d0"
 uuid = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-version = "1.16.4"
+version = "1.16.5"
 
 [[Polyester]]
 deps = ["ArrayInterface", "IfElse", "Requires", "Static", "StrideArraysCore", "ThreadingUtilities", "VectorizationBase"]
@@ -1176,7 +1176,7 @@ version = "0.3.0"
 deps = ["AbstractMCMC", "AdvancedHMC", "AdvancedMH", "AdvancedPS", "AdvancedVI", "BangBang", "Bijectors", "DataStructures", "Distributions", "DistributionsAD", "DocStringExtensions", "DynamicPPL", "EllipticalSliceSampling", "ForwardDiff", "Libtask", "LinearAlgebra", "MCMCChains", "NamedArrays", "Printf", "Random", "Reexport", "Requires", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Tracker", "ZygoteRules"]
 path = "/home/runner/.julia/dev/Turing"
 uuid = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
-version = "0.16.0"
+version = "0.16.2"
 
 [[TuringTutorials]]
 deps = ["IJulia", "InteractiveUtils", "Pkg", "Plots", "Random", "Requires", "Weave"]
