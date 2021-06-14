@@ -815,7 +815,7 @@
 <li><a href="/dev/docs/library/bijectors/#Bijectors.RationalQuadraticSpline"><code>Bijectors.RationalQuadraticSpline</code></a></li>
 <li><a href="/dev/docs/library/bijectors/#Bijectors.Stacked"><code>Bijectors.Stacked</code></a></li>
 <li><a href="/dev/docs/library/bijectors/#Bijectors._link_chol_lkj-Tuple%7BAny%7D"><code>Bijectors._link_chol_lkj</code></a></li>
-<li>[<code>Bijectors.bijector</code>](/dev/docs/library/bijectors/#Bijectors.bijector-Tuple{Distribution{Univariate, Discrete}})</li>
+<li><a href="/dev/docs/library/bijectors/#Bijectors.bijector-Tuple%7BBijectors.TransformedDistribution%7D"><code>Bijectors.bijector</code></a></li>
 <li>[<code>Bijectors.combine</code>](/dev/docs/library/bijectors/#Bijectors.combine-Tuple{Bijectors.PartitionMask, Any, Any, Any})</li>
 <li>[<code>Bijectors.composel</code>](/dev/docs/library/bijectors/#Bijectors.composel-Union{Tuple{Vararg{Bijector{N}, N1} where N1}, Tuple{N}} where N)</li>
 <li>[<code>Bijectors.composer</code>](/dev/docs/library/bijectors/#Bijectors.composer-Union{Tuple{Vararg{Bijector{N}, N1} where N1}, Tuple{N}} where N)</li>
@@ -823,12 +823,12 @@
 <li>[<code>Bijectors.couple</code>](/dev/docs/library/bijectors/#Bijectors.couple-Tuple{Bijectors.Coupling, AbstractVector{T} where T})</li>
 <li><a href="/dev/docs/library/bijectors/#Bijectors.coupling-Tuple%7BBijectors.Coupling%7D"><code>Bijectors.coupling</code></a></li>
 <li>[<code>Bijectors.find_alpha</code>](/dev/docs/library/bijectors/#Bijectors.find_alpha-Tuple{Real, Real, Real})</li>
-<li><a href="/dev/docs/library/bijectors/#Bijectors.forward-Tuple%7BDistribution%7D"><code>Bijectors.forward</code></a></li>
 <li>[<code>Bijectors.forward</code>](/dev/docs/library/bijectors/#Bijectors.forward-Tuple{Bijector, Any})</li>
+<li><a href="/dev/docs/library/bijectors/#Bijectors.forward-Tuple%7BDistribution%7D"><code>Bijectors.forward</code></a></li>
 <li>[<code>Bijectors.get_u_hat</code>](/dev/docs/library/bijectors/#Bijectors.get_u_hat-Tuple{AbstractVector{var&quot;#s110&quot;} where var&quot;#s110&quot;&lt;:Real, AbstractVector{var&quot;#s46&quot;} where var&quot;#s46&quot;&lt;:Real})</li>
 <li><a href="/dev/docs/library/bijectors/#Bijectors.isclosedform-Tuple%7BBijector%7D"><code>Bijectors.isclosedform</code></a></li>
-<li>[<code>Bijectors.logabsdetjac</code>](/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{ADBijector, Real})</li>
 <li>[<code>Bijectors.logabsdetjac</code>](/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{Inverse{var&quot;#s27&quot;, N} where {var&quot;#s27&quot;&lt;:Bijector, N}, Any})</li>
+<li>[<code>Bijectors.logabsdetjac</code>](/dev/docs/library/bijectors/#Bijectors.logabsdetjac-Tuple{ADBijector, Real})</li>
 <li>[<code>Bijectors.logabsdetjacinv</code>](/dev/docs/library/bijectors/#Bijectors.logabsdetjacinv-Tuple{UnivariateTransformed{var&quot;#s112&quot;, var&quot;#s111&quot;} where {var&quot;#s112&quot;&lt;:Distribution, var&quot;#s111&quot;&lt;:Bijector}, Real})</li>
 <li>[<code>Bijectors.logabsdetjacinv</code>](/dev/docs/library/bijectors/#Bijectors.logabsdetjacinv-Tuple{Bijector, Any})</li>
 <li>[<code>Bijectors.logpdf_with_jac</code>](/dev/docs/library/bijectors/#Bijectors.logpdf_with_jac-Tuple{UnivariateTransformed{var&quot;#s112&quot;, var&quot;#s111&quot;} where {var&quot;#s112&quot;&lt;:Distribution, var&quot;#s111&quot;&lt;:Bijector}, Real})</li>
@@ -861,7 +861,7 @@ end
         = (w₍ᵢ,ⱼ₎ / w₍ᵢ₋₁,ⱼ₎) * (z₍ᵢ₋₁,ⱼ₎ / √(1 - z₍ᵢ₋₁,ⱼ₎²))
 </code></pre>
 <p>which is the above implementation.</p>
-<p><a id='Bijectors.bijector-Tuple{Distribution{Univariate, Discrete}}' href='#Bijectors.bijector-Tuple{Distribution{Univariate, Discrete}}'>#</a>
+<p><a id='Bijectors.bijector-Tuple{Bijectors.TransformedDistribution}' href='#Bijectors.bijector-Tuple{Bijectors.TransformedDistribution}'>#</a>
 <strong><code>Bijectors.bijector</code></strong> — <em>Method</em>.</p>
 <div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bijector</span><span class="x">(</span><span class="n">d</span><span class="o">::</span><span class="n">Distribution</span><span class="x">)</span>
 </code></pre></div></div>
