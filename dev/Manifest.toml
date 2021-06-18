@@ -116,9 +116,9 @@ version = "0.8.13"
 
 [[ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "1499e49086faf92d3dca128d388f4afdf8220dc9"
+git-tree-sha1 = "4289a76df5a8568cca9970e54dd585c6c395c496"
 uuid = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-version = "0.10.6"
+version = "0.10.7"
 
 [[ColorSchemes]]
 deps = ["ColorTypes", "Colors", "FixedPointNumbers", "Random", "StaticArrays"]
