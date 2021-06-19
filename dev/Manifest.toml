@@ -156,9 +156,9 @@ version = "0.3.0"
 
 [[Compat]]
 deps = ["Base64", "Dates", "DelimitedFiles", "Distributed", "InteractiveUtils", "LibGit2", "Libdl", "LinearAlgebra", "Markdown", "Mmap", "Pkg", "Printf", "REPL", "Random", "SHA", "Serialization", "SharedArrays", "Sockets", "SparseArrays", "Statistics", "Test", "UUIDs", "Unicode"]
-git-tree-sha1 = "e4e2b39db08f967cc1360951f01e8a75ec441cab"
+git-tree-sha1 = "dc7dedc2c2aa9faf59a55c622760a25cbefbe941"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "3.30.0"
+version = "3.31.0"
 
 [[CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -1214,9 +1214,9 @@ version = "1.2.0"
 
 [[Wayland_jll]]
 deps = ["Artifacts", "Expat_jll", "JLLWrappers", "Libdl", "Libffi_jll", "Pkg", "XML2_jll"]
-git-tree-sha1 = "dc643a9b774da1c2781413fd7b6dcd2c56bb8056"
+git-tree-sha1 = "3e61f0b86f90dacb0bc0e73a0c5a83f6a8636e23"
 uuid = "a2964d1f-97da-50d4-b82a-358c7fce9d89"
-version = "1.17.0+4"
+version = "1.19.0+0"
 
 [[Wayland_protocols_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg", "Wayland_jll"]
